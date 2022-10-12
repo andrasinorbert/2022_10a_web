@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hatter_kek{
+            background-color: blue;
+        }
+        .hatter_zold{
+            background-color:green;
+        }
+        .betu_zold{
+            color: green;
+        }
+        .betu_piros{
+            color:red;
+        }
+        .betu_kek{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+        <section>
+            <script>
+                /*
+table>
+    caption{Osztályzatok}+
+    (thead>tr.hatter_kek.betu_zold>
+        th{Név}+th{Jegy})+
+    (tbody>tr*3>td.betu_piros+td.hatter_zold)+
+    tfooter>tr.betu_kek>td{Átlag}+td{4}
+                */
+            </script>
+            <table width="50%">
+                <caption>Osztályzatok</caption>
+                <thead>
+                    <tr class="hatter_kek betu_zold">
+                        <th>Név</th>
+                        <th>Jegy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="betu_piros" style="border: 1px solid black">Pisti</td>
+                        <td class="hatter_zold">5</td>
+                    </tr>
+                    <tr>
+                        <td class="betu_piros">Józsi</td>
+                        <td class="hatter_zold">4</td>
+                    </tr>
+                    <tr>
+                        <td class="betu_piros">Feri</td>
+                        <td class="hatter_zold">3</td>
+                    </tr>
+                </tbody>
+                <tfooter>
+                    <tr class="betu_kek">
+                        <td>Átlag</td>
+                        <td>4</td>
+                    </tr>
+                </tfooter>
+            </table>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
